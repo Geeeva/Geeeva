@@ -307,4 +307,46 @@
     }
 }
 @media screen and (max-width: 479px) {
+    #menu-wrapper {
+        .container {
+            .name {
+                padding-left: 10px;
+            }
+            .menu {
+                a {
+                    font-size: 17px;
+                    margin-right: 10px;
+                    padding-right: 10px;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    .about-wrapper {
+        .text-wrapper {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    } 
+    .skills-wrapper {
+        .technics-wrapper {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+    .work-wrapper {
+        .items-wrapper{
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+    .contact-wrapper {
+        .form-wrapper {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+    }
+    .footer-wrapper {
+        font-size: 15px;
+    }
 }
