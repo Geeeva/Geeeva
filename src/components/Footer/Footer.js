@@ -6,7 +6,7 @@ const footer = () => {
     return (
         <div className="container-fluid footer-wrapper">
             <div className="container"> 
-                <p>© Copyright 2019 ivana Gilic | All Right Reserved.</p> 
+                <p>© Copyright 2019 Ivana Gilic | All Right Reserved.</p> 
                 <div className="icon-wrapper">
                     <div className="github">
                         <a href="https://github.com/Geeeva"><img src={GithubIcon} alt="Github" /></a>
