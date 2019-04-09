@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/sass.12ef6071.svg"
   },
   {
-    "revision": "4e5540cabb4581405a5e",
-    "url": "/Geeeva/static/css/main.49565a76.chunk.css"
+    "revision": "866ccd39181113f7bb66",
+    "url": "/Geeeva/static/css/main.f317b631.chunk.css"
   },
   {
     "revision": "46ed05b6a23f92d4f1ef",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/css3.dffc63fd.svg"
   },
   {
-    "revision": "4e5540cabb4581405a5e",
+    "revision": "866ccd39181113f7bb66",
     "url": "/Geeeva/static/js/main.f0c991fc.chunk.js"
   },
   {
@@ -104,19 +104,19 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/linkedin-icon.9c793e47.svg"
   },
   {
-    "revision": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
-    "url": "/Geeeva/static/media/Roboto-Regular.3e1af3ef.ttf"
-  },
-  {
     "revision": "fc84e998bc29b297ea20321e4c90b6ed",
     "url": "/Geeeva/static/media/Roboto-Light.fc84e998.ttf"
+  },
+  {
+    "revision": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
+    "url": "/Geeeva/static/media/Roboto-Regular.3e1af3ef.ttf"
   },
   {
     "revision": "bf2cf3894573bf5c075d9a377abf32d5",
     "url": "/Geeeva/static/media/Inter-ExtraBold.bf2cf389.ttf"
   },
   {
-    "revision": "6bb2f11b646b19a7aaa654953bb5884e",
+    "revision": "18ef8b324ff0a97bfdab0bb96e3ff078",
     "url": "/Geeeva/index.html"
   }
 ];
