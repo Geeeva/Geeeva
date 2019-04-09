@@ -1,0 +1,22 @@
+@mixin background-size($bg-size) {
+	-webkit-background-size: $bg-size;
+	-moz-background-size: $bg-size;
+	-o-background-size: $bg-size;
+	background-size: $bg-size;
+}
+
+@mixin text-align-last($tal) {
+	text-align-last: $tal;
+	-moz-text-align-last: $tal;
+	-ms-text-align-last: $tal;
+}
+
+%button-style {
+	background: -webkit-linear-gradient(left, #642b73 , #c5426e); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #642b73 , #c5426e); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right,#642b73 , #c5426e); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #642b73 , #c5426e); /* Standard syntax */
+	border: none;
+	border-radius: 25px;
+	color: #fff;
+}
