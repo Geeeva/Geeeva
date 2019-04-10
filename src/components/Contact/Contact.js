@@ -27,21 +27,21 @@ class Contact extends Component {
 
     	if(this.state.name.length < 5) {
     		isError = true;
-    		errors.nameError = 'Name needs to be at least 5 characters long';
+    		errors.nameError = 'Requires to be at least 5 characters';
     	} else {
     		errors.nameError = '';
     	}
 
     	if(this.state.email.indexOf("@") === -1) {
     		isError = true;
-    		errors.emailError = 'Requires valid email';
+    		errors.emailError = 'Requires a valid email address';
     	} else {
     		errors.emailError = '';
     	}
 
     	if(this.state.message.length === 0 || this.state.message.length > 1000) {
     		isError = true;
-    		errors.messageError = 'Pls.enter a message no longer then 1000 charachters';
+    		errors.messageError = 'Requires a message no longer than 1000 charachters';
     	} else {
     		errors.messageError = '';
     	}
@@ -119,12 +119,13 @@ class Contact extends Component {
                                             name="name" 
                                             placeholder="Name" 
                                             value={this.state.name}
+                                            style={{backgroundColor: this.state.nameError === "Requires to be at least 5 characters" ? '#F1F1F1' : ''}}
                                             onChange={event => this.changeHandler(event)}
                                         />
                                         {/* Notification nameError */}
                                         <div className="nameError">
                                             <span 
-                                                className={"tooltiptext" + (this.state.nameError === "Name needs to be at least 5 long" ?
+                                                className={"tooltiptext" + (this.state.nameError === "Requires to be at least 5 characters" ?
                                                     ' visible' : '')}>{this.state.nameError}
                                             </span>
                                         </div>
@@ -136,12 +137,13 @@ class Contact extends Component {
                                             name="email" 
                                             placeholder="Email Address"
                                             value={this.state.email}
+                                            style={{backgroundColor: this.state.emailError === "Requires a valid email address" ? '#F1F1F1' : ''}}
                                             onChange={event => this.changeHandler(event)}
                                         />
                                         {/* Notification emailError */}
                                         <div className="emailError">
                                             <span 
-                                                className={"tooltiptext" + (this.state.emailError === "Valid email is required" ?
+                                                className={"tooltiptext" + (this.state.emailError === "Requires a valid email address" ?
                                                     ' visible' : '')}>{this.state.emailError}</span>
                                         </div>
                                     </div>
@@ -161,13 +163,14 @@ class Contact extends Component {
                                             cols="30" 
                                             rows="7"
                                             value={this.state.message}
+                                            style={{backgroundColor: this.state.messageError === "Requires a message no longer than 1000 charachters" ? '#F1F1F1' : ''}}
                                             onChange={event => this.changeHandler(event)}
                                         >
                                         </textarea>
                                         {/* Notification messageError */}
                                         <div className="messageError">
                                             <span 
-                                                className={"tooltiptext" + (this.state.messageError === "Pls.enter a message no longer then 1000 charachters" ?
+                                                className={"tooltiptext" + (this.state.messageError === "Requires a message no longer than 1000 charachters" ?
                                                     ' visible' : '')}>{this.state.messageError}</span>
                                         </div>
                                     </div>

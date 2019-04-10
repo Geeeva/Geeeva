@@ -103,9 +103,12 @@
 		.item-wrapper {
 			text-align: center;
 			position: relative;
-			cursor: pointer;
+			padding-left: 15px;
+			padding-right: 15px;
 			padding-top: 30px;
 			padding-bottom: 30px;
+			transition: background-color .2s ease-in-out;
+			cursor: pointer;
 			h3 {
 				display: inline-block;
 				font-size: 18px;
@@ -118,6 +121,9 @@
 				opacity: 0;
 				transition: height .3s ease-in-out, opacity .4s ease-in-out;
 				display: grid;
+			}
+			&:hover, &:focus {
+				background-color: #E5E5E5;
 			}
 			&:hover .text-wrapper,  &:focus .text-wrapper {
 				cursor: pointer;
@@ -149,14 +155,17 @@
 			z-index: 2000;
 			visibility: hidden;
 			transform: translateX(-50%) translateY(-50%);
-			filter: blur(0.3px);
-			zoom: 0.9;
 			.md-content {
 				color: #000;
 				background-color:#fff;
 				position: relative;
 				border-radius: 3px;
 				margin: 0 auto;
+				zoom: 0.9;
+				opacity: 0;
+				transform: scale(0.8);
+				filter: blur(0.3px);
+				transition: all 0.3s;
 				h3 {
 					margin: 0;
 					padding-top: 30px;
@@ -398,6 +407,7 @@
 					border-radius: 5px;
 					outline: none;
 					border: none;
+					transition: background-color .3s ease-in-out;
 				}
 				input::placeholder, input::-webkit-input-placeholder, input:-moz-placeholder,
 				input::-moz-placeholder, input:-ms-input-placeholder,
@@ -406,6 +416,7 @@
 					font-size: 18px;
 					color: #555;
 					padding-left: 5px;
+					transition: background-color .3s ease-in-out;
 				}
 				textarea {
 					font-size: 18px;

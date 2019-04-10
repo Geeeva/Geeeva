@@ -15,7 +15,7 @@ const skills = () => {
     const items = [
         [Html5, "HTML5", "Creating HTML structure of the web page, inserting links, videos and pictures, working with semantic elements, converting designs from Zeplin to HTML pages" ],
         [Css3, "CSS3", "Changing style, color and position of HTML elements, working with animations, working with flexbox and css grid"],
-        [Sass, "SASS", "Using variables and mixins, using nesting to target specific elements, structuring project in separate modules"],
+        [Sass, "SCSS", "Using variables and mixins, using nesting to target specific elements, structuring project in separate modules"],
         [Responsive, "Responsive Web Design", "Adapting aplications for different screens using media queries, responsive images, mobile first and desktop first approach"],
         [Bootstrap, "Bootstrap Responsive Web Design", "Using bootstrap grid system, using bootstrap components and classes"],
         [Javascript, "JavaScript", "Data types, variables, functions, loops, If/Else statements, arrays and array methods, algorithms, manipulating with DOM, objects, inheritance, ES6 features, asynchronous programming, FETCH, Async/Await"],

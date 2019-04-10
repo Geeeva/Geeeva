@@ -4,7 +4,7 @@ const Modal = (props) => {
     return (
         <React.Fragment>
             <div class="md-modal md-effect-1" id="modal-1" style={{ visibility: props.show ? 'visible' : 'hidden'}}>
-                <div className="md-content" style={{ opacity: props.show ? '1' : '0'}}>
+                <div className="md-content" style={{ opacity: props.show ? '1' : '0', transform: props.show ? 'scale(1)' : ''}}>
                     <h3>{props.data[1]}</h3>
                     <div>
                         <div>{props.data[2]}</div>
