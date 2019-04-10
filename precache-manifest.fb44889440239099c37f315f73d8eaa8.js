@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/sass.12ef6071.svg"
   },
   {
-    "revision": "31488f6920e3241bf28d",
-    "url": "/Geeeva/static/css/main.65cf6ded.chunk.css"
+    "revision": "9dba1ff53404e1e6820a",
+    "url": "/Geeeva/static/css/main.0befa809.chunk.css"
   },
   {
     "revision": "46ed05b6a23f92d4f1ef",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/css3.dffc63fd.svg"
   },
   {
-    "revision": "31488f6920e3241bf28d",
-    "url": "/Geeeva/static/js/main.f0c991fc.chunk.js"
+    "revision": "9dba1ff53404e1e6820a",
+    "url": "/Geeeva/static/js/main.d6d9aeff.chunk.js"
   },
   {
     "revision": "3936e505c62a6a6873385b393633faa7",
@@ -104,19 +104,19 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/linkedin-icon.9c793e47.svg"
   },
   {
-    "revision": "fc84e998bc29b297ea20321e4c90b6ed",
-    "url": "/Geeeva/static/media/Roboto-Light.fc84e998.ttf"
+    "revision": "bf2cf3894573bf5c075d9a377abf32d5",
+    "url": "/Geeeva/static/media/Inter-ExtraBold.bf2cf389.ttf"
   },
   {
     "revision": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
     "url": "/Geeeva/static/media/Roboto-Regular.3e1af3ef.ttf"
   },
   {
-    "revision": "bf2cf3894573bf5c075d9a377abf32d5",
-    "url": "/Geeeva/static/media/Inter-ExtraBold.bf2cf389.ttf"
+    "revision": "fc84e998bc29b297ea20321e4c90b6ed",
+    "url": "/Geeeva/static/media/Roboto-Light.fc84e998.ttf"
   },
   {
-    "revision": "9d8eaa1699d027701e91cb239613d926",
+    "revision": "e9cba2c6cff96052d3ec84c6996f92f3",
     "url": "/Geeeva/index.html"
   }
 ];
