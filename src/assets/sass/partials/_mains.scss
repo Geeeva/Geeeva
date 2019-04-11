@@ -143,7 +143,6 @@
 				width: 150%;
 			}
 		}
-
 		.md-modal {
 			position: fixed;
 			top: 50%;
@@ -316,7 +315,6 @@
 						border-radius: 50%;
 						background-color: #138496;
 						transition: width .4s, height .4s, opacity .4s;
-						-webkit-transition-timing-function: cubic-bezier(0.7,0,0.9,1);
 						transition-timing-function: cubic-bezier(0.7,0,0.9,1);
 					}
 					&:hover::before {
@@ -459,7 +457,6 @@
 						border-radius: 50%;
 						background-color: #138496;
 						transition: width .4s, height .4s, opacity .4s;
-						-webkit-transition-timing-function: cubic-bezier(0.7,0,0.9,1);
 						transition-timing-function: cubic-bezier(0.7,0,0.9,1);
 					}
 					&:hover::before {

@@ -16,11 +16,9 @@ class Header extends Component {
             if (currentScrollPos > 500) {
                 document.getElementById("menu-wrapper").style.top = "0";
                 document.getElementById("menu-wrapper").style.backgroundColor = "#695753";
-                const menuItems = document.querySelectorAll(".menu a");
     
             } else if( currentScrollPos === 0) {
                 document.getElementById("menu-wrapper").style.backgroundColor = "rgba(105, 87, 83, 0.75)";
-                const menuItems = document.querySelectorAll(".menu a");
             }
         }
     }

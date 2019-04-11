@@ -5,29 +5,29 @@
         padding-top: 30px;
         padding-bottom: 30px;
         text-align: center;
-        display: grid;
-        grid-template-columns: 60% 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         p {
-            grid-auto-columns: 1 / 2;
-            justify-self: end;
-            align-self: center;
             font-display: RobotoRegular;
             margin-right: 10px;
         }
         .icon-wrapper {
-            grid-auto-columns: 2 / 3;
-            justify-self: start;
-            align-self: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             .github {
                 display: inline-block;
                 margin-right: 10px;
                 img {
+                    display: inline-block;
                     width: 30px;
                 }
             }
             .linkedin {
                 display: inline-block;
                 img {
+                    display: inline-block;
                     width: 30px;
                 }
             }
