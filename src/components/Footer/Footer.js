@@ -6,7 +6,7 @@ const footer = () => {
             <div className="container"> 
                 <p>© Copyright 2019 Ivana Gilic | All Right Reserved.</p> 
                 <div className="icon-wrapper">
-                    <a href="https://github.com/Geeeva" target="_blank">
+                    <a href="https://github.com/Geeeva" target="_blank" rel="noopener noreferrer">
                         <div className="github-wrapper">
                             <div className="circle">
                             </div>
@@ -19,7 +19,7 @@ const footer = () => {
                             </svg>
                         </div>
                     </a>
-                    <a href="https://www.linkedin.com/in/ivana-gili%C4%87-04620850/" target="_blank">
+                    <a href="https://www.linkedin.com/in/ivana-gili%C4%87-04620850/" target="_blank" rel="noopener noreferrer">
                         <div className="linkedin-wrapper">
                             <div className="rectangle">
                             </div>
