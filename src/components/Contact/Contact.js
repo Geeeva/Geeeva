@@ -110,7 +110,7 @@ class Contact extends Component {
                         <div className="contact-form-content">
                             <div className="form-wrapper wow pulse" data-wow-duration=".7s">
                                 <h3 className="intro">
-                                You can contact me by email address <a href="mailto:ivana.gilich@gmail.com">ivana.gilic@gmail.com</a> or by contact form below</h3>
+                                You can contact me by email address <a href="mailto:ivana.gilich@gmail.com">ivana.gilich@gmail.com</a> or by contact form below</h3>
                                 <h3>CONTACT FORM</h3>
                                 <form>
                                     <div>
