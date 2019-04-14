@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/css3.dffc63fd.svg"
   },
   {
-    "revision": "fe2305e9514531bbd605",
+    "revision": "298a31443860eecd8092",
     "url": "/Geeeva/static/css/main.1b534200.chunk.css"
   },
   {
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/html5.99747fbd.svg"
   },
   {
-    "revision": "fe2305e9514531bbd605",
-    "url": "/Geeeva/static/js/main.f47460dc.chunk.js"
+    "revision": "298a31443860eecd8092",
+    "url": "/Geeeva/static/js/main.46c38e8b.chunk.js"
   },
   {
     "revision": "12ef60714f21dfad62ec3f5341ac8ae7",
@@ -96,19 +96,19 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/IvanaInsta.d9f69590.jpg"
   },
   {
-    "revision": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
-    "url": "/Geeeva/static/media/Roboto-Regular.3e1af3ef.ttf"
-  },
-  {
     "revision": "fc84e998bc29b297ea20321e4c90b6ed",
     "url": "/Geeeva/static/media/Roboto-Light.fc84e998.ttf"
+  },
+  {
+    "revision": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
+    "url": "/Geeeva/static/media/Roboto-Regular.3e1af3ef.ttf"
   },
   {
     "revision": "bf2cf3894573bf5c075d9a377abf32d5",
     "url": "/Geeeva/static/media/Inter-ExtraBold.bf2cf389.ttf"
   },
   {
-    "revision": "8671dfda01d9969c3557fa2bc611ea37",
+    "revision": "7ee28fdfb7f7ed9a2c09d6a7a7d134a0",
     "url": "/Geeeva/index.html"
   }
 ];
