@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "12ef60714f21dfad62ec3f5341ac8ae7",
-    "url": "/Geeeva/static/media/sass.12ef6071.svg"
+    "revision": "dffc63fd30aadc0af8ea23f4158a15f7",
+    "url": "/Geeeva/static/media/css3.dffc63fd.svg"
   },
   {
-    "revision": "4bb02f8b1d477c3d3340",
-    "url": "/Geeeva/static/css/main.bc89c305.chunk.css"
+    "revision": "4eb078bc01e451760e9c",
+    "url": "/Geeeva/static/css/main.b6b8af50.chunk.css"
   },
   {
     "revision": "46ed05b6a23f92d4f1ef",
     "url": "/Geeeva/static/js/runtime~main.73fb9cc8.js"
   },
   {
-    "revision": "23d04f4c192ed31db15b",
-    "url": "/Geeeva/static/js/2.442ca851.chunk.js"
+    "revision": "060a9b0ecf4c90608a3a",
+    "url": "/Geeeva/static/js/2.1b5d2723.chunk.js"
   },
   {
     "revision": "06c39faf037b55b50018634a52110860",
@@ -56,12 +56,12 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/html5.99747fbd.svg"
   },
   {
-    "revision": "dffc63fd30aadc0af8ea23f4158a15f7",
-    "url": "/Geeeva/static/media/css3.dffc63fd.svg"
+    "revision": "4eb078bc01e451760e9c",
+    "url": "/Geeeva/static/js/main.09651e79.chunk.js"
   },
   {
-    "revision": "4bb02f8b1d477c3d3340",
-    "url": "/Geeeva/static/js/main.6ab941e4.chunk.js"
+    "revision": "12ef60714f21dfad62ec3f5341ac8ae7",
+    "url": "/Geeeva/static/media/sass.12ef6071.svg"
   },
   {
     "revision": "3936e505c62a6a6873385b393633faa7",
@@ -96,27 +96,19 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/IvanaInsta.d9f69590.jpg"
   },
   {
-    "revision": "0833736e0da6416a6415d6eec0644835",
-    "url": "/Geeeva/static/media/github-icon.0833736e.svg"
-  },
-  {
-    "revision": "0323ef2986f54574601ac8ee5b4b0b52",
-    "url": "/Geeeva/static/media/linkedin-icon.0323ef29.svg"
+    "revision": "fc84e998bc29b297ea20321e4c90b6ed",
+    "url": "/Geeeva/static/media/Roboto-Light.fc84e998.ttf"
   },
   {
     "revision": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
     "url": "/Geeeva/static/media/Roboto-Regular.3e1af3ef.ttf"
   },
   {
-    "revision": "fc84e998bc29b297ea20321e4c90b6ed",
-    "url": "/Geeeva/static/media/Roboto-Light.fc84e998.ttf"
-  },
-  {
     "revision": "bf2cf3894573bf5c075d9a377abf32d5",
     "url": "/Geeeva/static/media/Inter-ExtraBold.bf2cf389.ttf"
   },
   {
-    "revision": "60a83af2d6d633428e957285c638a23c",
+    "revision": "686b298e0c2dc3ff2b5d2fbe5b09f42b",
     "url": "/Geeeva/index.html"
   }
 ];
