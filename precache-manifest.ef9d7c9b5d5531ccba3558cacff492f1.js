@@ -96,12 +96,12 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/IvanaInsta.d9f69590.jpg"
   },
   {
-    "revision": "fc84e998bc29b297ea20321e4c90b6ed",
-    "url": "/Geeeva/static/media/Roboto-Light.fc84e998.ttf"
-  },
-  {
     "revision": "3e1af3ef546b9e6ecef9f3ba197bf7d2",
     "url": "/Geeeva/static/media/Roboto-Regular.3e1af3ef.ttf"
+  },
+  {
+    "revision": "fc84e998bc29b297ea20321e4c90b6ed",
+    "url": "/Geeeva/static/media/Roboto-Light.fc84e998.ttf"
   },
   {
     "revision": "bf2cf3894573bf5c075d9a377abf32d5",
