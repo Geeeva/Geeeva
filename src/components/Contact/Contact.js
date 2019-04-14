@@ -41,7 +41,7 @@ class Contact extends Component {
 
     	if(this.state.message.length === 0 || this.state.message.length > 1000) {
     		isError = true;
-    		errors.messageError = 'Requires a message no longer than 1000 charachters';
+    		errors.messageError = 'Requires a message no longer than 1000 characters';
     	} else {
     		errors.messageError = '';
     	}
@@ -110,7 +110,7 @@ class Contact extends Component {
                         <div className="contact-form-content">
                             <div className="form-wrapper wow pulse" data-wow-duration=".7s">
                                 <h3 className="intro">
-                                You can contact me by email address ivana.gilich@gmail.com or by contact form below</h3>
+                                You can contact me by email address <a href="mailto:ivana.gilich@gmail.com">ivana.gilic@gmail.com</a> or by contact form below</h3>
                                 <h3>CONTACT FORM</h3>
                                 <form>
                                     <div>
@@ -163,14 +163,14 @@ class Contact extends Component {
                                             cols="30" 
                                             rows="7"
                                             value={this.state.message}
-                                            style={{backgroundColor: this.state.messageError === "Requires a message no longer than 1000 charachters" ? '#F1F1F1' : ''}}
+                                            style={{backgroundColor: this.state.messageError === "Requires a message no longer than 1000 characters" ? '#F1F1F1' : ''}}
                                             onChange={event => this.changeHandler(event)}
                                         >
                                         </textarea>
                                         {/* Notification messageError */}
                                         <div className="messageError">
                                             <span 
-                                                className={"tooltiptext" + (this.state.messageError === "Requires a message no longer than 1000 charachters" ?
+                                                className={"tooltiptext" + (this.state.messageError === "Requires a message no longer than 1000 characters" ?
                                                     ' visible' : '')}>{this.state.messageError}</span>
                                         </div>
                                     </div>

@@ -7,6 +7,7 @@ import Contact from '../components/Contact/Contact';
 import Footer from '../components/Footer/Footer';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import WOW from 'wowjs';
+import {Helmet} from "react-helmet";
 import '../assets/sass/main.scss';
 
 class App extends Component {
@@ -16,7 +17,17 @@ class App extends Component {
     
     render() {
         return (
-            <React.Fragment> 
+            <div> 
+                <Helmet>
+                    <title>Ivana Gilic | Portfolio</title>
+                    <meta name="keywords" 
+                          content="HTML, CSS, SCSS, SVG, Responsive web design, Bootstrap, JavaScript, jQuery, NPM, GIT, React
+                    " />
+                    <meta
+                        name="description"
+                        content="Frontend engineer working on useful scripts, as well as experimenting with new JS libraries "
+                    />
+                </Helmet>
                 <header>
                     <Header />
                 </header>
@@ -37,7 +48,7 @@ class App extends Component {
                 <footer>
                     <Footer />
                 </footer>
-            </React.Fragment>
+            </div>
         );
     }
 }

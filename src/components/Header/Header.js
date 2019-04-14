@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 class Header extends Component {
-
     componentDidMount() {
         let prevScrollpos = window.pageYOffset;
         window.onscroll = () => {
@@ -22,6 +21,7 @@ class Header extends Component {
             }
         }
     }
+    
     render () {
         return (
             <div className="container-fluid" id="menu-wrapper">

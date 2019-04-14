@@ -22,7 +22,10 @@ body p {
 	font-family: RobotoRegular, sans-serif;
 }
 body h1 {
-	font-size: 70px
+	font-family: RobotoLight, sans-serif;
+	font-size: 20px;
+	display: inline-block;
+	color: #000;
 }
 body h3 {
 	font-family: InterBold, sans-serif;
@@ -55,6 +58,18 @@ button {
 	margin-right: auto;
 	margin-left: auto;
 	max-width: 100%;
+}
+
+@media (min-width: 414px) {
+    .container {
+        width: 430px;
+    }
+}
+
+@media (min-width: 479px) {
+    .container {
+        width: 500px;
+    }
 }
 
 @media (min-width: 768px) {

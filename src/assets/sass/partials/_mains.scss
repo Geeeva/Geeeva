@@ -21,7 +21,7 @@
 			color: #000;
 			padding-bottom: 30px;
 		}
-		p {
+		div {
 			grid-row: 2 / 3;
 			font-size: 20px;
 			color:  #606060;
@@ -138,10 +138,6 @@
 				align-self: center;
 				justify-self: center;
 			}
-			.enlarge {
-				height: 150%;
-				width: 150%;
-			}
 		}
 		.md-modal {
 			position: fixed;
@@ -251,98 +247,105 @@
 		padding-left: 50px;
 		padding-right: 50px;
 		padding-top: 70px;
-		padding-bottom: 60px;
+		padding-bottom: 40px;
 		background-color: #DDEDEC;
 		.intro {
 			padding-bottom: 30px;
 		}
-		.item-wrapper {
-			display: grid;
-			grid-template-columns: 50% 50%;
-			grid-template-rows: 100%;
-			.content-wrapper {
-				grid-column: 1 / 2;
-				grid-row: 1 / 2;
-				display: grid;
-				grid-template-columns: 100%;
-				grid-template-rows: auto auto auto;
-				h3 {
-					grid-column: 1 / 2;
-					grid-row: 1 / 2;
-					text-align: left;
-					padding-bottom: 15px;
-					font-size: 20px;
-				}
-				p {
-					grid-column: 1 / 2;
-					grid-row: 2 / 3;
-					color: #555;
-					font-size: 20px;
-					text-align: left;
-					padding-bottom: 10px;
-				}
-				button {
-					grid-column: 1 / 2;
-					grid-row: 3 / 4;
-					max-height: 40px;
-					max-width: 150px;
-					justify-self: start;
-					position: relative;
-					z-index: 1;
-					width: 100px;
-					font-family: RobotoRegular;
-					font-size: 18px;
-					padding-top: 7px;
-					padding-bottom: 7px;
-					border: none;
-					border-radius: 5px;
-					overflow: hidden;
-					color: #fff;
-					background-color: #17a2b8;
-					cursor: pointer;
-					&:before {
-						content: '';
-						z-index: -1;
-						position: absolute;
-						transform-origin: 100% 50%;
-						position: absolute;
-						top: 50%;
-						left: 50%;
-						transform: translate(-50%, -50%);
-						width: 0px;
-						height: 0px;
-						opacity: 1;
-						border-radius: 50%;
-						background-color: #138496;
-						transition: width .4s, height .4s, opacity .4s;
-						transition-timing-function: cubic-bezier(0.7,0,0.9,1);
+		.slick-slider {
+			.slick-list {
+				.item-wrapper {
+					display: grid;
+					grid-template-columns: 50% 50%;
+					grid-template-rows: 100%;
+					.content-wrapper {
+						grid-column: 1 / 2;
+						grid-row: 1 / 2;
+						display: grid;
+						grid-template-columns: 100%;
+						grid-template-rows: auto auto auto;
+						h3 {
+							grid-column: 1 / 2;
+							grid-row: 1 / 2;
+							text-align: left;
+							padding-bottom: 15px;
+							font-size: 20px;
+						}
+						p {
+							grid-column: 1 / 2;
+							grid-row: 2 / 3;
+							color: #555;
+							font-size: 20px;
+							text-align: left;
+							padding-bottom: 20px;
+						}
+						button {
+							grid-column: 1 / 2;
+							grid-row: 3 / 4;
+							max-height: 40px;
+							max-width: 150px;
+							justify-self: start;
+							position: relative;
+							z-index: 1;
+							width: 100px;
+							font-family: RobotoRegular;
+							font-size: 18px;
+							padding-top: 7px;
+							padding-bottom: 7px;
+							border: none;
+							border-radius: 5px;
+							overflow: hidden;
+							color: #fff;
+							background-color: #17a2b8;
+							cursor: pointer;
+							&:before {
+								content: '';
+								z-index: -1;
+								position: absolute;
+								transform-origin: 100% 50%;
+								position: absolute;
+								top: 50%;
+								left: 50%;
+								transform: translate(-50%, -50%);
+								width: 0px;
+								height: 0px;
+								opacity: 1;
+								border-radius: 50%;
+								background-color: #138496;
+								transition: width .4s, height .4s, opacity .4s;
+								transition-timing-function: cubic-bezier(0.7,0,0.9,1);
+							}
+							&:hover::before {
+								height: 200px;
+								width: 200px;
+								opacity: 1;
+							}
+							.github {
+								display: inline-block;
+								width: 30px;
+								height: 20px;
+								padding-left: 5px;
+							}
+						}
+						.img-wrapper-alternative {
+							display: none;
+						}
 					}
-					&:hover::before {
-						height: 200px;
-						width: 200px;
-						opacity: 1;
+					.img-wrapper {
+						grid-column: 2 / 3;
+						grid-row: 1 / 2;
+						padding-bottom: 15px;
+						justify-self: end;
+						img {
+							max-width: 300px;
+							padding-left: 50px;
+						}
 					}
-					.github {
-						display: inline-block;
-						width: 30px;
-						height: 20px;
-						padding-left: 5px;
-					}
-				}
-				.img-wrapper-alternative {
-					display: none;
 				}
 			}
-			.img-wrapper {
-				grid-column: 2 / 3;
-				grid-row: 1 / 2;
-				padding-bottom: 15px;
-				justify-self: end;
-				img {
-					max-width: 300px;
-					padding-left: 50px;
-				}
-			}
+		}
+		.slick-dots {
+			bottom: 0px;
 		}
 	}
 	.slick-arrow .slick-prev {
@@ -385,6 +388,14 @@
 			}
 			.intro {
 				padding-bottom: 40px;
+				a {
+					color: #fff;
+					font-family: RobotoLight;
+					&:hover, &:visited, &:link {
+						text-decoration: none;
+						color: #fff;
+					}
+				}
 			}
 			form {
 				display: grid;
@@ -392,20 +403,34 @@
 				grid-template-rows: auto auto auto auto auto;
 				font-size: 15px;
 				text-align: left;
-				div input, input {
+				input, .subject {
 					color: #555;
 					font-size: 18px;
 					padding-left: 15px;
 					padding-right: 15px;
 					padding-top: 10px;
 					padding-bottom: 10px;
-					margin-bottom: 15px;
+					margin-bottom: 5px;
 					min-width: 100%;
 					max-width: 100%;
 					border-radius: 5px;
 					outline: none;
 					border: none;
 					transition: background-color .3s ease-in-out;
+				}
+				textarea {
+					font-size: 18px;
+					color: #555;
+					font-family: RobotoRegular;
+					padding-left: 15px;
+					padding-top: 15px;
+					margin-bottom: 5px;
+					min-width: 100%;
+					max-width: 100%;
+					resize: none;
+					outline: none;
+					border: none;
+					border-radius: 5px;
 				}
 				input::placeholder, input::-webkit-input-placeholder, input:-moz-placeholder,
 				input::-moz-placeholder, input:-ms-input-placeholder,
@@ -415,19 +440,6 @@
 					color: #555;
 					padding-left: 5px;
 					transition: background-color .3s ease-in-out;
-				}
-				textarea {
-					font-size: 18px;
-					color: #555;
-					font-family: RobotoRegular;
-					padding-left: 15px;
-					padding-top: 15px;
-					min-width: 100%;
-					max-width: 100%;
-					resize: none;
-					outline: none;
-					border: none;
-					border-radius: 5px;
 				}
 				button {
 					max-width: 150px;
@@ -468,15 +480,15 @@
 				.nameError, .emailError {
 					margin-bottom: 10px;
 				}
-				.subject {
-					margin-bottom: 25px;
-				}
 				.tooltiptext {
 					color: #fff;
 				}
+				.subject {
+					margin-bottom: 15px;
+				}
 				.message-sent {
 					color: #fff;
-					margin-top: 15px;
+					margin-top: 40px;
 				}
 			}
 		}
