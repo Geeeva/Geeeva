@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/css3.dffc63fd.svg"
   },
   {
-    "revision": "b7fa350f2e62765ee552",
-    "url": "/Geeeva/static/css/main.b6b8af50.chunk.css"
+    "revision": "fe2305e9514531bbd605",
+    "url": "/Geeeva/static/css/main.1b534200.chunk.css"
   },
   {
     "revision": "46ed05b6a23f92d4f1ef",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/html5.99747fbd.svg"
   },
   {
-    "revision": "b7fa350f2e62765ee552",
+    "revision": "fe2305e9514531bbd605",
     "url": "/Geeeva/static/js/main.f47460dc.chunk.js"
   },
   {
@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/Geeeva/static/media/Inter-ExtraBold.bf2cf389.ttf"
   },
   {
-    "revision": "bdf6aab2638c19bf22a97804f2a9afbc",
+    "revision": "8671dfda01d9969c3557fa2bc611ea37",
     "url": "/Geeeva/index.html"
   }
 ];
