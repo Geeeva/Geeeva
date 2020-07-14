@@ -22,7 +22,7 @@ const skills = () => {
         [Jquery, "jQuery", "Manipulating with DOM, manipulating with CSS, working with events"],
         [Npm, "NPM", "Working in node enviroment, using NPM packages and scripts"],
         [Git, "GIT", "Good knowledge of GIT ecosystem, using command line and GIT commands, working with other developers on same project"],
-        [Reactpic, "React", "Single - page aplications (SPA), React 16.8.6, helpful tools for creating SPA applications, Redux"] 
+        [Reactpic, "React", "Single - page aplications (SPA), React 16.13.1, helpful tools for creating SPA applications, Redux, ContextAPI/Reducers"]
     ]
     
     const item = items.map((item, index) => {

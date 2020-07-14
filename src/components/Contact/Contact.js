@@ -115,7 +115,7 @@ class Contact extends Component {
                                 <form>
                                     <div>
                                         <input 
-                                            type="text" 
+                                            type="text"
                                             name="name" 
                                             placeholder="Name" 
                                             value={this.state.name}

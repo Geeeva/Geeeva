@@ -169,7 +169,7 @@
 					font-size: 22px!important;
 					font-weight: 300;
 					opacity: 1;
-					background-color: rgba(105, 87, 83, .9);
+					background-color: rgb(15, 172, 178);
 					display: block!important;
 					color: #fff;
 					border-radius: 3px 3px 0 0;
@@ -187,7 +187,7 @@
 					padding: 10px 20px;
 					border: none;
 					border-radius: 5px;
-					background-color: rgba(105, 87, 83, 1);
+					background-color: rgb(15, 172, 178);
 					color: #fff;
 					position: relative;
 					overflow: hidden;
@@ -205,7 +205,7 @@
 						height: 0px;
 						opacity: 0;
 						border-radius: 50%;
-						background-color: #382F2D;
+						background-color: #0b7a7e;
 						transition: width .4s, height .4s, opacity .4s;
 						transition-timing-function: cubic-bezier(0.7,0,0.9,1);
 					}
@@ -374,7 +374,11 @@
 		.form-wrapper {
 			grid-column: 1 / 2;
 			grid-row: 1 / 2;
-			background-color: #695753;
+			//background-color: #695753;
+			border-top: 1px solid #0facb2;
+			border-left: 1px solid #0facb2;
+			border-right: 1px solid #0facb2;
+			border-bottom: 1px solid #0facb2;
 			padding-top: 60px;
 			padding-bottom: 50px;
 			padding-left: 30px;
@@ -383,17 +387,19 @@
 			h3 {
 				font-family: RobotoLight;
 				font-size: 20px;
-				color: #fff;
+				color: #312d2d;
+				overflow: hidden;
 				padding-bottom: 20px;
 			}
 			.intro {
 				padding-bottom: 40px;
 				a {
-					color: #fff;
+					color: #0facb2;
 					font-family: RobotoLight;
 					&:hover, &:visited, &:link {
 						text-decoration: none;
-						color: #fff;
+						color: #0facb2;
+						font-weight: 900;
 					}
 				}
 			}
@@ -404,7 +410,7 @@
 				font-size: 15px;
 				text-align: left;
 				input, .subject {
-					color: #555;
+					color: #312d2d;
 					font-size: 18px;
 					padding-left: 15px;
 					padding-right: 15px;
@@ -415,12 +421,12 @@
 					max-width: 100%;
 					border-radius: 5px;
 					outline: none;
-					border: none;
+					border: 1px solid #0facb2;
 					transition: background-color .3s ease-in-out;
 				}
 				textarea {
 					font-size: 18px;
-					color: #555;
+					color: #312d2d;
 					font-family: RobotoRegular;
 					padding-left: 15px;
 					padding-top: 15px;
@@ -429,7 +435,7 @@
 					max-width: 100%;
 					resize: none;
 					outline: none;
-					border: none;
+					border: 1px solid #0facb2;
 					border-radius: 5px;
 				}
 				input::placeholder, input::-webkit-input-placeholder, input:-moz-placeholder,
@@ -437,9 +443,8 @@
 				textarea::placeholder, textarea::-webkit-input-placeholder, textarea:-moz-placeholder,
 				textarea::-moz-placeholder, textarea:-ms-input-placeholder {
 					font-size: 18px;
-					color: #555;
+					color: #312d2d;
 					padding-left: 5px;
-					transition: background-color .3s ease-in-out;
 				}
 				button {
 					max-width: 150px;
@@ -481,7 +486,8 @@
 					margin-bottom: 10px;
 				}
 				.tooltiptext {
-					color: #fff;
+					color: #312d2d;
+					font-size: 18px;
 				}
 				.subject {
 					margin-bottom: 15px;

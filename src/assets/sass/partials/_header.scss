@@ -33,7 +33,7 @@ body h3 {
 }
 body h2 {
 	font-family: InterExtraBold, sans-serif;
-	font-size: 120px;
+	font-size: 90px;
 	font-weight: 600;
 } 
 body div, body p {
@@ -68,7 +68,7 @@ button {
 
 @media (min-width: 479px) {
     .container {
-        width: 500px;
+        width: 550px;
     }
 }
 
@@ -91,7 +91,7 @@ button {
 }
 
 #menu-wrapper {
-	background-color:#695753;
+	background-color: rgb(15, 172, 178);
 	border: rgba(0,0,0,.1) 1px solid;
 	box-shadow: 0 3px 10px -1px rgba(0, 0, 0, 0.15);
 	position: fixed;

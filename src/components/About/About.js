@@ -18,7 +18,7 @@ class About extends Component {
                                 <span className="bolded"> React</span> and other newer libraries of <span className="bolded">JavaScript</span>.
                                 Always increasing the knowledge and implement it in domain of frontend development.
                                 Passionate for clean, simple and understandable code that is sustainable, with an eye for design and love for visual harmony.
-                                Following trends in Frontend. Next goals to master <span className="bolded">React Native, AngularJS and NodeJS.</span></div>
+                                Following trends in Frontend. Next goals to master <span className="bolded">React Native, Angular and NodeJS.</span></div>
                         </div>
                     </div>
                 </div> 

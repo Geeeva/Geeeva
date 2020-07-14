@@ -14,10 +14,10 @@ class Header extends Component {
 
             if (currentScrollPos > 500) {
                 document.getElementById("menu-wrapper").style.top = "0";
-                document.getElementById("menu-wrapper").style.backgroundColor = "#695753";
+                document.getElementById("menu-wrapper").style.backgroundColor = "#0facb2";
     
             } else if( currentScrollPos === 0) {
-                document.getElementById("menu-wrapper").style.backgroundColor = "rgba(105, 87, 83, 0.75)";
+                document.getElementById("menu-wrapper").style.backgroundColor = "rgba(15, 172, 178, .75)";
             }
         }
     }
