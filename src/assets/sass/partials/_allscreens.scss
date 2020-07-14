@@ -97,9 +97,6 @@
                     }
                 }
             }
-            .slick-dots {
-                bottom: 10px;
-            }
         }
     }
     .contact-wrapper {
@@ -379,7 +376,8 @@
             .item-wrapper {
                 .content-wrapper {
                     p {
-                        font-size: 18px
+                        font-size: 18px;
+                        min-height: 105px;
                     }
                 }
             }
@@ -550,7 +548,7 @@
                 padding-bottom: 20px;
             }
             .slick-dots{
-                bottom: 15px;
+                bottom: 0px;
             }
         }
     }
