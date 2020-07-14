@@ -4,7 +4,7 @@ const footer = () => {
     return (
         <div className="container-fluid footer-wrapper">
             <div className="container"> 
-                <p>© Copyright 2020 Ivana Gilic | All Right Reserved.</p>
+                <p>© Copyright 2020 Ivana Gilic | All Rights Reserved.</p>
                 <div className="icon-wrapper">
                     <a href="https://github.com/Geeeva" target="_blank" rel="noopener noreferrer">
                         <div className="github-wrapper">
