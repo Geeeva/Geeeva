@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from '../.././axios-geeeva-form';
-import Ivana from '../../assets/images/IvanaInsta.jpg';
+import Ivana from '../../assets/images/Ivana.jpg';
 
 class Contact extends Component {
     state = {
